@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegendCraft - Minecraft Sunucusu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>LegendCraft</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#about">Hakkında</a></li>
+                <li><a href="#join">Katıl</a></li>
+                <li><a href="#events">Etkinlikler</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Epik Minecraft Macerasına Katıl!</h2>
+            <p>Sunucumuza katıl, arkadaşlarınla birlikte eğlenceli bir dünyaya adım at!</p>
+            <a href="#join" class="cta-btn">Sunucuya Katıl</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>Sunucumuz Hakkında</h2>
+            <p>LegendCraft, PvP, survival ve özel etkinliklerle dolu heyecan verici bir Minecraft sunucusudur. Her hafta yeni maceralar seni bekliyor!</p>
+        </div>
+    </section>
+
+    <section id="join" class="join">
+        <h2>Sunucuya Katılmak İçin</h2>
+        <p>Sunucu IP: <strong>mc.legendcraft.com</strong></p>
+        <p>Discord: <a href="https://discord.gg/legendcraft" target="_blank">Katıl</a></p>
+    </section>
+
+    <section id="events" class="events">
+        <h2>Yaklaşan Etkinlikler</h2>
+        <div class="event-list">
+            <div class="event">
+                <h3>Survival Turnuvası</h3>
+                <p>20 Ocak 2024 - Saat 18:00</p>
+            </div>
+            <div class="event">
+                <h3>Özel Zombi Avı</h3>
+                <p>25 Ocak 2024 - Saat 20:00</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Bizimle İletişime Geçin</h2>
+        <p>Email: <a href="mailto:support@legendcraft.com">support@legendcraft.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 LegendCraft | Tüm Hakları Saklıdır</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // Örnek olarak, kullanıcı siteye geldiğinde hoş geldiniz mesajı gösterebiliriz.
+    setTimeout(function() {
+        alert('Hoş geldiniz! LegendCraft Minecraft sunucusuna katılmak için hazırsınız.');
+    }, 2000);
+});
